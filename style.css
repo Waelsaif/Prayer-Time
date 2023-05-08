@@ -1,0 +1,194 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  color: white;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+  transition: 0.5s;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #222, #111);
+}
+.container {
+  background: linear-gradient(
+    to bottom right,
+    rgb(150, 31, 254),
+    rgb(60, 60, 245)
+  );
+  background: linear-gradient(to bottom right, #0093e9, #80d0c7);
+  width: 28%;
+  height: 630px;
+  margin: 25px auto;
+  border-radius: 20px;
+  padding: 20px 35px;
+}
+.content {
+  height: 100%;
+  display: none;
+}
+#title {
+  text-align: center;
+  margin-top: 15px;
+}
+.date_info {
+  height: 15%;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#mons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  opacity: 0.8;
+}
+#days {
+  opacity: 0.8;
+}
+.prayer_time {
+  height: 68%;
+}
+.prayer_time h1 {
+  color: #222;
+}
+.times {
+  width: 100%;
+  height: 14%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  background-color: white;
+  font-size: 10px;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+.times:hover {
+  opacity: 0.8;
+}
+.made {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 35%;
+  margin: 0 auto;
+}
+.made:hover #love {
+  color: #ba023f;
+}
+.icons i {
+  font-size: 22px;
+  margin: 0px 5px;
+  color: #d6d6d6d3;
+  transition: 0.3s;
+}
+.icons i:hover {
+  color: white;
+  transform: scale(1.08);
+}
+/* ------------------ */
+.content2 {
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+}
+.title2 {
+  text-align: end;
+  font-size: 24px;
+  position: relative;
+  left: 1000px;
+}
+.title2 h1 {
+  text-align: center;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 255, 255),
+    rgb(215, 215, 215)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.image {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.image img {
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 1000px;
+}
+.text {
+  margin-top: 20px;
+  text-align: end;
+  font-size: 15px;
+}
+#text {
+  position: relative;
+  left: 1000px;
+}
+.forms {
+  margin: 20px 0px;
+  text-align: end;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  left: 1000px;
+}
+.forms p {
+  margin-right: 10px;
+}
+.forms input[type="text"] {
+  width: 95%;
+  height: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  color: #222;
+  font-size: 16px;
+}
+.forms input:hover {
+  opacity: 0.8;
+}
+
+button p {
+  color: #222;
+  font-size: 14px;
+}
+button {
+  margin-top: 30px;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  height: 40px;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  position: relative;
+  left: 1000px;
+  padding: 0px 5px;
+}
+button img {
+  width: 22%;
+  height: 85%;
+}
+button:hover {
+  transform: scale(1.03);
+  opacity: 0.8;
+}

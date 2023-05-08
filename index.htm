@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;700&display=swap"
+      rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/f9ca423d9a.js"
+      crossorigin="anonymous"></script>
+    <title>Prayer Time</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content" id="content">
+        <h1 id="title">مواعيد الصلاة</h1>
+        <div class="date_info">
+          <div id="date">
+            <h4 id="dateM"></h4>
+            <h4 id="dateH"></h4>
+          </div>
+          <div id="mons">
+            <h2 id="mon"></h2>
+            <h2 id="day_number"></h2>
+          </div>
+          <div id="days">
+            <h2 id="day_not_number"></h2>
+          </div>
+        </div>
+        <div class="prayer_time">
+          <div class="times">
+            <h1 style="order: 1">صلاة الفجر</h1>
+            <h1 id="fajr"></h1>
+          </div>
+          <div class="times">
+            <h1 style="order: 1">شروق الشمس</h1>
+            <h1 id="shrog"></h1>
+          </div>
+          <div class="times">
+            <h1 style="order: 1">صلاة الظهر</h1>
+            <h1 id="dahr"></h1>
+          </div>
+          <div class="times">
+            <h1 style="order: 1">صلاة العصر</h1>
+            <h1 id="asr"></h1>
+          </div>
+          <div class="times">
+            <h1 style="order: 1">صلاة المغرب</h1>
+            <h1 id="magh"></h1>
+          </div>
+          <div class="times">
+            <h1 style="order: 1">صلاة العشاء</h1>
+            <h1 id="isha"></h1>
+          </div>
+        </div>
+      </div>
+      <div class="content2" id="content2">
+        <div class="title2" id="title2">
+          <h2>مرحباً بك في</h2>
+          <h1>تطبيق أذكار</h1>
+        </div>
+        <div class="image">
+          <img id="img" src="images/athkarLogo.png" alt="" />
+        </div>
+        <div class="text">
+          <p id="text">
+            تطبيق أذكار، يشمل على الأذكار و الأدعية المهمة من الكتاب و السنة -
+            أذكار الصباح - أذكار المساء - الأذكار عند النوم - أدعية من القران
+            الكريم - مواقيت الصلاة في مدينتك و اتجاه القبلة
+          </p>
+        </div>
+        <div id="forms" class="forms">
+          <div class="country">
+            <p>الدولة</p>
+            <input type="text" id="country_inp" placeholder="Country" />
+          </div>
+          <div class="city">
+            <p>المدينة</p>
+            <input type="text" id="city_inp" placeholder="City" />
+          </div>
+        </div>
+        <button id="btn">
+          <p style="order: 1">تسجيل الدخول بواسطة</p>
+          <img src="images/pngwing.com.png" alt="" />
+        </button>
+      </div>
+    </div>
+    <div class="made">
+      <h3 style="order: 1">صنع <span id="love">بحب </span>بواسطة وائل</h3>
+      <div class="icons">
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
